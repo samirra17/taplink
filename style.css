@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.picter img {
+    width: 150px;
+    border-radius: 50%;
+    height: 150px;
+    margin-top: 10px;
+    border: 4px solid white;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Cabin', sans-serif;
+}
+
+h2 b {
+    color: rgb(255, 255, 255);
+}
+
+span {
+    color: black;
+    font-weight: bold;
+}
+
+.main {
+    margin-top: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 360px;
+    height: 640px;
+    text-align: center;
+    border: 10px solid white;
+}
+
+.links {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-width: 2px;
+    max-width: 320px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    background-color:white;
+    color:black;
+    transition: color 1s;
+    margin-bottom: 10px;
+    
+}
+
+a:hover {
+    color:white;
+    text-decoration: underline;
+    background-color:grey;
+}
+
+.jebe {
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
